@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inicio - AstridMelanieRuizZerda</title>
+</head>
+<body>
+    <header>
+        <img src="img/logoamrz.png" alt="AMRZ logo">
+        <h1>AMRZ</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <form>
+        <fieldset>
+           <legend>Datos personales</legend>
+         
+           <label>Nombre y Apellidos: </label><input name='nombre_apellidos' type='text' tabindex='1' maxlength="30" required pattern="[A-Za-z0-9]+"/><br>
+          <br>
+          <label>Email: </label><input name='nombre' type='email'/>
+          <br>
+           <label>Edad</label>
+           <input type='range' tabindex='20'
+                   name='edad' min="18" max="99" />
+          
+           <br><br>
+        </fieldset>
+          
+        <fieldset>
+              <legend>Escribe un mensaje</legend>
+              <textarea name="textarea" rows="10" cols="50">Escribe aquí tu mensaje</textarea>
+       <br/>
+              <input type="checkbox" tabindex='21' name='privacidad_cookies' value='si'/>Acepta la política de privacidad y cookies
+            </fieldset>  
+         <input type="submit" value="Enviar" />
+       </form>
+    <footer>
+        <small>© AMRZ 2019</small>
+        <div>
+            <a href="#">Politica de privacidad y cookies</a>
+        </div>
+        <a href="#"><img src="img/twitter.png" alt="Twitter"></a>
+        <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="img/whatsapp.png" alt="Whatsapp"></a>
+    </footer>
+</body>
+</html>
